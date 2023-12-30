@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-29T18:07:08 IST" name="Default suite" finished-at="2023-12-29T18:07:21 IST" duration-ms="12957">
+    <groups>
+    </groups>
+    <test started-at="2023-12-29T18:07:08 IST" name="Default test" finished-at="2023-12-29T18:07:21 IST" duration-ms="12957">
+      <class name="api.test.DatadrivenTest">
+        <test-method signature="createbookdata(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:10 IST" name="createbookdata" data-provider="data" finished-at="2023-12-29T18:07:14 IST" duration-ms="3609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sherlock Holmes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Investigator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123789.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hero]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createbookdata -->
+        <test-method signature="createbookdata(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:14 IST" name="createbookdata" data-provider="data" finished-at="2023-12-29T18:07:14 IST" duration-ms="652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Watson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Junior Investigator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[654321.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createbookdata -->
+        <test-method signature="createbookdata(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:14 IST" name="createbookdata" data-provider="data" finished-at="2023-12-29T18:07:15 IST" duration-ms="645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stapleton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anti Investigator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[156789.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Villan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createbookdata -->
+        <test-method signature="getsinglebooksdata(java.lang.String)[pri:3, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:15 IST" name="getsinglebooksdata" data-provider="Id" finished-at="2023-12-29T18:07:16 IST" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsinglebooksdata -->
+        <test-method signature="getsinglebooksdata(java.lang.String)[pri:3, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:16 IST" name="getsinglebooksdata" data-provider="Id" finished-at="2023-12-29T18:07:16 IST" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsinglebooksdata -->
+        <test-method signature="getsinglebooksdata(java.lang.String)[pri:3, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:16 IST" name="getsinglebooksdata" data-provider="Id" finished-at="2023-12-29T18:07:17 IST" duration-ms="631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsinglebooksdata -->
+        <test-method signature="updateallbooks(java.lang.String)[pri:4, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:17 IST" name="updateallbooks" data-provider="Id" finished-at="2023-12-29T18:07:18 IST" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateallbooks -->
+        <test-method signature="updateallbooks(java.lang.String)[pri:4, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:18 IST" name="updateallbooks" data-provider="Id" finished-at="2023-12-29T18:07:18 IST" duration-ms="620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateallbooks -->
+        <test-method signature="updateallbooks(java.lang.String)[pri:4, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:18 IST" name="updateallbooks" data-provider="Id" finished-at="2023-12-29T18:07:19 IST" duration-ms="613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateallbooks -->
+        <test-method signature="deleteallbooksdata(java.lang.String)[pri:5, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:19 IST" name="deleteallbooksdata" data-provider="Id" finished-at="2023-12-29T18:07:20 IST" depends-on-methods="api.test.DatadrivenTest.createbookdata" duration-ms="1017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteallbooksdata -->
+        <test-method signature="deleteallbooksdata(java.lang.String)[pri:5, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:20 IST" name="deleteallbooksdata" data-provider="Id" finished-at="2023-12-29T18:07:21 IST" depends-on-methods="api.test.DatadrivenTest.createbookdata" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteallbooksdata -->
+        <test-method signature="deleteallbooksdata(java.lang.String)[pri:5, instance:api.test.DatadrivenTest@6da21078]" started-at="2023-12-29T18:07:21 IST" name="deleteallbooksdata" data-provider="Id" finished-at="2023-12-29T18:07:21 IST" depends-on-methods="api.test.DatadrivenTest.createbookdata" duration-ms="572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteallbooksdata -->
+      </class> <!-- api.test.DatadrivenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
